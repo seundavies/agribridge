@@ -47,7 +47,7 @@ my_ip_cidr = "82.10.101.251/32"
 # Create one: AWS console > EC2 > Key pairs > Create key pair, choose .pem,
 # and keep the downloaded file somewhere safe.
 # ---------------------------------------------------------------------------
-key_pair_name = "agribridge.pem"
+key_pair_name = "agribridge"
 
 
 # ---------------------------------------------------------------------------

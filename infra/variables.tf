@@ -44,7 +44,7 @@ variable "aws_account_id" {
     To find your account ID: sign in to the AWS console, click your name in the
     top right, and it is shown under "Account ID". Write it without dashes:
 
-        aws_account_id = "123456789012"
+        aws_account_id = "376141657128"
   EOT
   type        = string
 
@@ -61,7 +61,7 @@ variable "my_ip_cidr" {
     Controls who can reach SSH, Grafana and Prometheus. Find yours by opening
     https://checkip.amazonaws.com in a browser, then write it as, for example:
 
-        my_ip_cidr = "102.89.34.7/32"
+        my_ip_cidr = "182.10.101.251/32"
 
     If your internet connection changes address, Grafana will stop loading and
     you will need to update this and run terraform apply again.
